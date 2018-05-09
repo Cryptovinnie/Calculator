@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<head>
+      <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+</head>
+
 <link rel="stylesheet"
       type="text/css"
       href="/css.css"
@@ -7,7 +15,7 @@
 <body>
  <div class="frame_holder">
     <div class="scroll_frame">
-    <iframe class ="my_frame" src="https://connect.calcapp.net/?app=buq3dz" allowfullscreen></iframe>
+    <iframe src="https://connect.calcapp.net/?app=buq3dz" scrolling="no" onload="resizeIframe(this)"</iframe>
    </div>
 </div>
    
