@@ -1,7 +1,7 @@
 .videoWrapper {
 	position: absolute;
-	padding-bottom: 100%; /* 16:9 */
-	padding-top: 25px;
+	padding-bottom: 50%; /* 16:9 */
+	padding-top: 0;
 	height: 0;
 	
 }
@@ -9,8 +9,6 @@
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	botom: 50px;
-	right: 50px;
 	width: 100%;
 	height: 100%;
 }
@@ -21,4 +19,12 @@
     left: 50px;
     right: 50px;
     background: #ffffff;
+}
+.scroll_frame {
+    overflow: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling:touch;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e0e0e0;
 }
