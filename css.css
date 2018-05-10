@@ -9,6 +9,7 @@ body {
     position: relative;
     background: #f0f0f0;
 }
+
 .frame_holder {
     position: absolute;
     top: 50px;
@@ -17,6 +18,7 @@ body {
     right: 50px;
     background: #ffffff;
 }
+
 .scroll_frame {
     overflow: auto;
     overflow-x: hidden;
@@ -26,3 +28,13 @@ body {
     border: 1px solid #e0e0e0;
 }
 
+.my_frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    vertical-align: top;
+}
+
+.hidden {
+    display: none;
+}
